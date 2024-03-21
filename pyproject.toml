@@ -1,0 +1,12 @@
+[build-system]
+requires = [ "setuptools" ]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "orchestrator"
+description = "my tool"
+version = "1.0.0"
+dependencies = [
+    "dagster==1.6.11",
+    "dagster-webserver==1.6.11"
+]
